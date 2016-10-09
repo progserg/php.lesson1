@@ -19,6 +19,7 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+    @yield('contentHead')
 </head>
 <body>
     <div id="app">
